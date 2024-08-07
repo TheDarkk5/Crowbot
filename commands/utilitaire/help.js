@@ -22,7 +22,7 @@ module.exports = {
 - \`${client.config.prefix}image <function>\`
 - \`${client.config.prefix}invite [membre]\`
 - \`${client.config.prefix}pic [membre]\`
-- \`${client.config.prefix}porngif [functions]\` (*Salon nsfw*)
+- \`${client.config.prefix}porngif [ass/anal/pussy/boobs,hentai,4k]\` (*Salon nsfw*)
 - \`${client.config.prefix}rank [membre]\`
 - \`${client.config.prefix}snipe\`
 - \`${client.config.prefix}top [invite/rank]\`
