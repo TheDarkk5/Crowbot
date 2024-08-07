@@ -5,6 +5,8 @@ const { MessageActionRow, MessageButton, MessageMenuOption, MessageMenu } = requ
 module.exports = {
     name: 'daily',
     description: 'Claim your daily coins',
+    slashCommand: {
+    enabled: true,
     run : async(client, message, args, prefix, color) => {
         let cooldown = db.get(`daily_${message.author.id}`);
         if (cooldown && Date.now() - cooldown < 86400000) {
