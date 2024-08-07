@@ -7,7 +7,7 @@ module.exports = {
     description: 'Claim your daily coins',
     slashCommand: {
     enabled: true,
-    }
+    },
     run : async(client, message, args, prefix, color) => {
         let cooldown = db.get(`daily_${message.author.id}`);
         if (cooldown && Date.now() - cooldown < 86400000) {
